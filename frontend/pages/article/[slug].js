@@ -36,7 +36,7 @@ const Article = ({ article, categories }) => {
           <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
             <div>
               {article.attributes.author.data.attributes.picture && (
-                <img
+                <image
                   src={getStrapiMedia(
                     article.attributes.author.data.attributes.picture
                   )}
